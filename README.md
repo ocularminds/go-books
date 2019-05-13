@@ -1,5 +1,5 @@
 # go-books
-Workbook file reader that displays content in html
+Workbook file reader that displays content in html<br>
 To demonstrate my skills as a developer using Go language
 
 ### The Assignment Submission
@@ -14,16 +14,16 @@ to enable proper testing.
 The codebase consists of 2 go files: **file_page.go** and **file_page_test.go**
 * Keep the 2(.prn and .csv) files in the same directory as the file_page.go
 * on the terminal, simple invoke:
-```javascript
+```java
 > go run file_page.go
 ```
 An output.html file will be generated. Simply click on the file to view display in html
-```javascript
+```java
 > go test
 ```
 
 For resolving missing package for text/encoding, please execute this command
-```javascript
+```java
 go get "golang.org/x/text/encoding"
 ```
 
