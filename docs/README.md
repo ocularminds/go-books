@@ -47,7 +47,7 @@ For resolving missing package for text/encoding, please execute this command
 go get "golang.org/x/text/encoding"
 ```
 
-### TODO - Improvement
+###  - Improvement
  To improve on the software produced:
 * I would provide a JSON config file as configuration to where files will be loaded from
 * I wanted to make the config for the application as easy as possible, so I decided to use a JSON config file that would get read on program start up,
